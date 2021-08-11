@@ -22,7 +22,7 @@ jobs:
       run: |
         python -m flake8 
 
-        cd ~
+        cd /home/runner/yamdb_final
         pytest
         
         
