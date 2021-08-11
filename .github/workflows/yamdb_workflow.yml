@@ -45,10 +45,7 @@ jobs:
         with:
           push: true
           tags: zth17/yamdb_final:latest
-
-    runs-on: ubuntu-latest
-    needs: tests
-    
+          
         
   deploy:
       runs-on: ubuntu-latest
