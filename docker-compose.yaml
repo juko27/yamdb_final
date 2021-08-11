@@ -8,6 +8,7 @@ services:
     env_file:
       - ./.env
   web:
+    image: zth17/yamdb_final
     build: .
     restart: always
 
