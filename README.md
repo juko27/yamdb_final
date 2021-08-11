@@ -3,7 +3,7 @@ yamdb_final
 
 ![Did it :boom:](https://github.com/VivSRD/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
 
-![example workflow](https://github.com/VivSRD/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
+![example event parameter](https://github.com/VivSRD/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg?event=pull_request)
 
 Проект **YaMDb** собирает отзывы пользователей на произведения. Произведения делятся на категории: «Книги», «Фильмы», «Музыка».
 
