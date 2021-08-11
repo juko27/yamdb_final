@@ -1,16 +1,17 @@
 import random
-from django.contrib.auth import get_user_model
+
 from django.conf import settings
+from django.contrib.auth import get_user_model
 from django.core.mail import send_mail
 from rest_framework import generics, status, viewsets
-from rest_framework.response import Response
-from rest_framework.permissions import IsAuthenticated, AllowAny
-from rest_framework.pagination import PageNumberPagination
 from rest_framework.decorators import action
+from rest_framework.pagination import PageNumberPagination
+from rest_framework.permissions import AllowAny, IsAuthenticated
+from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import RefreshToken
-from .serializers import RegisterSerializer, VerifySerializer, UsersSerializer
-from .permissions import IsAdmin
 
+from .permissions import IsAdmin
+from .serializers import RegisterSerializer, UsersSerializer, VerifySerializer
 
 User = get_user_model()
 
